@@ -1,0 +1,981 @@
+/* RESET */
+
+html, body, h1, p, figure {
+    padding:                0;
+    margin:                 0;
+}
+
+body {
+    background-color:       black;
+    padding:                40px;
+    cursor:                 pointer;
+}
+
+img {
+    width:                  100%;
+    height:                 auto;
+}
+
+p {
+    line-height:            1.2;
+}
+
+/* --------- */
+
+
+
+
+
+/* CURSOR */
+
+.cursor {
+    border:                         8px solid #95caaf;
+    border-radius:                  50%;
+    position:                       absolute;
+    transition-duration:            400ms;
+    transition-timing-function:     ease-out;
+}
+
+/* --------- */
+
+
+
+
+
+/* NAVIGATION TOP */
+
+.heading h3 a{
+    font-family:            "elza", sans-serif;
+    font-size:              2em;
+    font-weight:            100;
+    
+    color:                  white;
+    text-decoration:        none;
+}
+
+.heading h3 a:hover {
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+
+.heading {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+/* --------- */
+
+
+
+
+
+/* NAVIGATION FOOTER */
+
+.footer h3 a{
+    font-family:            "elza", sans-serif;
+    font-size:              2em;
+    font-weight:            100;
+    
+    color:                  white;
+    text-decoration:        none;
+}
+
+.footer h3 a:hover{
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+.footer {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between
+}
+
+/* --------- */
+
+
+
+
+
+/* MAIN IMAGE COLUMNS */
+
+.title a {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    line-height:            0;
+    font-weight:            100;
+    color:                  white;
+    text-decoration:        none;
+}
+
+.title a:hover {
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+.container {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container .box {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container .box .columns {
+    display:                flex;
+    flex-direction:         column;
+    width:                  32.5%;
+}
+
+.container .box .columns img {
+    width:                  100%;
+    padding-top:            40px;
+}
+
+.columns a:hover{
+    color:                  #95caaf;
+    opacity:                0.9;
+}
+
+/* --------- */
+
+
+
+
+
+/* WERDE MAGAZIN */
+
+.text-p1 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.text-p1 a{
+    color:                  white;
+    text-decoration:        none;
+}
+
+.text-p1 a:hover{
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+
+.container-p1 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p1 .box-p1 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p1 .box-p1 .columns-p1 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  32.5%;
+}
+
+.container-p1 .box-p1 .columns-p1 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+
+/* OMSK, SIBERIA */
+
+.text-p2 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p2 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p2 .box-p2 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p2 .box-p2 .columns-p2 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p2 .box-p2 .columns-p2 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* BW TOURISMUS */
+
+.text-p3 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p3 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p3 .box-p3 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p3 .box-p3 .columns-p3 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p3 .box-p3 .columns-p3 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* FORM AND LIGHT */
+
+.text-p4 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p4 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p4 .box-p4 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p4 .box-p4 .columns-p4 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  32.5%;
+}
+
+.container-p4 .box-p4 .columns-p4 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* HIDDENLAND STORIES */
+
+.text-p5 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p5 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p5 .box-p5 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p5 .box-p5 .columns-p5 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p5 .box-p5 .columns-p5 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* ALPINE SUMMER */
+
+.text-p6 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p6 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p6 .box-p6 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p6 .box-p6 .columns-p6 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p6 .box-p6 .columns-p6 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* GEIGENBAU LOCHMANN */
+
+.text-p7 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p7 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p7 .box-p7 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p7 .box-p7 .columns-p7 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p7 .box-p7 .columns-p7 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+
+/* FASHION PROJECTS */
+
+.text-p8 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p8 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p8 .box-p8 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p8 .box-p8 .columns-p8 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  32.5%;
+}
+
+.container-p8 .box-p8 .columns-p8 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+/* BLOCKHAUS FREIBURG */
+
+.text-p9 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;  
+    padding-top:            50px;
+    padding-bottom:         50px;
+    padding-right:          450px;
+}
+
+.container-p9 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container-p9 .box-p9 {
+    display:                flex;
+    flex-direction:         row;
+    justify-content:        space-between;
+}
+
+.container-p9 .box-p9 .columns-p9 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  49.4%;
+}
+
+.container-p9 .box-p9 .columns-p9 img {
+    width:                  100%;
+    padding-bottom:         22px;
+}
+
+/* --------- */
+
+
+
+
+
+/* ABOUT */
+
+.about a{
+    color:                  white;
+    text-decoration:        none;
+}
+
+.about a:hover{
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+.about {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;
+    
+    display:                grid;
+    grid-template-columns:  1fr 1fr;
+    grid-gap:               3em;
+    
+    padding-top:            40px;
+    padding-bottom:         40px;
+}
+
+
+
+/* --------- */
+
+
+
+
+/* IMRPINT */
+
+.imprint {
+    font-family:            "elza", sans-serif;
+    font-size:              1.5em;
+    font-weight:            100;
+    color:                  white;
+    
+    padding-top:            70px;
+    padding-right:          70px;
+}
+
+/* --------- */
+
+
+
+
+
+/* mobile version for iPhone 12 Pro */
+
+@media screen and (max-width: 1170px) {
+    
+
+/* RESET */  
+    
+body {
+    background-color:       black;
+    padding:                20px;
+    cursor:                 pointer;
+}
+
+p {
+    line-height:            1.4;
+}
+
+/* --------- */
+
+    
+
+/* NAVIGATION TOP */
+
+.heading h3 a {
+    font-size:              1.3em;
+}
+
+/* --------- */
+
+
+    
+/* NAVIGATION FOOTER */
+
+.footer h3 a {
+    font-size:              1.3em;
+}
+
+/* --------- */
+
+
+
+/* MAIN IMAGE COLUMNS */
+
+.title a {
+    font-size:              1.3em;
+}
+
+.container .box {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        center;
+}
+
+.container .box .columns {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+/* --------- */
+
+
+
+/* WERDE MAGAZIN */
+
+.text-p1 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p1 .box-p1 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p1 .box-p1 .columns-p1 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p1 .box-p1 .columns-p1 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* OMSK, SIBERIA */
+
+.text-p2 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p2 .box-p2 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p2 .box-p2 .columns-p2 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p2 .box-p2 .columns-p2 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* BW TOURISMUS */
+
+.text-p3 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p3 .box-p3 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p3 .box-p3 .columns-p3 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p3 .box-p3 .columns-p3 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* FORM AND LIGHT */
+
+.text-p4 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p4 .box-p4 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p4 .box-p4 .columns-p4 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p4 .box-p4 .columns-p4 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* HIDDENLAND STORIES */
+
+.text-p5 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p5 .box-p5 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p5 .box-p5 .columns-p5 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p5 .box-p5 .columns-p5 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* ALPINE SUMMER */
+
+.text-p6 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p6 .box-p6 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p6 .box-p6 .columns-p6 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p6 .box-p6 .columns-p6 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* GEIGENBAU LOCHMANN */
+
+.text-p7 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p7 .box-p7 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p7 .box-p7 .columns-p7 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p7 .box-p7 .columns-p7 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* FASHION PROJECTS */
+
+.text-p8 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p8 .box-p8 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p8 .box-p8 .columns-p8 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p8 .box-p8 .columns-p8 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+
+
+/* BLOCKHAUS FREIBURG */
+
+.text-p9 {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    padding-top:            40px;
+    padding-bottom:         40px;
+    padding-right:          20px;
+}
+
+.container-p9 .box-p9 {
+    display:                flex;
+    flex-direction:         column;
+    justify-content:        space-between;
+}
+
+.container-p9 .box-p9 .columns-p9 {
+    display:                flex;
+    flex-direction:         column;
+    width:                  100%;
+}
+
+.container-p9 .box-p9 .columns-p9 img {
+    width:                  100%;
+    padding-bottom:         20px;
+}
+
+/* --------- */
+
+    
+
+/* ABOUT */
+
+.about a{
+    color:                  white;
+    text-decoration:        none;
+}
+
+.about a:hover{
+    color:                  #95caaf;
+    text-decoration:        none;
+}
+
+.about {
+    font-family:            "elza", sans-serif;
+    font-size:              1.3em;
+    font-weight:            100;
+    color:                  white;
+    
+    display:                grid;
+    grid-template-columns:  1fr;
+    grid-gap:               3em;
+    
+    padding-top:            40px;
+    padding-bottom:         0px;
+}
+
+/* --------- */
+
+    
+
+/* IMRPINT */
+
+.imprint {
+    font-family:            "elza", sans-serif;
+    font-size:              1em;
+    font-weight:            100;
+    color:                  white;
+    
+    padding-top:            70px;
+    padding-right:          30px;
+}
+
+/* --------- */
+    
+}
