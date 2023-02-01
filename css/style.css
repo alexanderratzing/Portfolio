@@ -34,6 +34,8 @@ p {
     position:                       absolute;
     transition-duration:            400ms;
     transition-timing-function:     ease-out;
+    transform:                      translate(-50%, -50%);
+    pointer-events:                 none;
 }
 
 /* --------- */
